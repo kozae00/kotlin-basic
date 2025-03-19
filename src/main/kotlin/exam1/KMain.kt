@@ -1,3 +1,5 @@
+package exam1
+
 fun main() {
 //    var num1: Int = 20 // int num1 = 20;
 //    val num2 = 10 // final int num2 = 10; // 협업할 때는 val로 사용하는 것이 좋다. // 불변성 지향
@@ -9,7 +11,7 @@ fun main() {
 //    println("num2: $num2")
 
     val num = 10
-    val msg = "Hello, Kotlin"
+    var msg = "Hello, Kotlin"
 
     println("Number: $num")
     println("Message: $msg")
